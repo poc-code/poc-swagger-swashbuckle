@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PocSwagger</name>
+    </assembly>
+    <members>
+        <member name="T:PocSwagger.Controllers.ReporterController">
+            <summary>
+            Reporter
+            </summary>
+        </member>
+        <member name="M:PocSwagger.Controllers.ReporterController.GetAsync">
+            <summary>
+            Any return
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PocSwagger.Controllers.ReporterController.PostAsync(PocSwagger.ViewModel.ValueViewModel)">
+            <summary>
+            Ignore Api
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:PocSwagger.Controllers.ValuesController">
+            <summary>
+            Serviço para imprimir valores 
+            </summary>
+        </member>
+        <member name="M:PocSwagger.Controllers.ValuesController.GetAsync">
+            <summary>
+            Retorna uma lista de valores
+            </summary>
+            <returns>Busca os valores</returns>
+        </member>
+        <member name="M:PocSwagger.Controllers.ValuesController.Post(PocSwagger.ViewModel.ValueViewModel)">
+            <summary>
+            Adiciona os valores
+            </summary>
+            <param name="request"></param>
+            <returns>Insere um valor</returns>
+        </member>
+        <member name="M:PocSwagger.Controllers.ValuesController.Put(System.Object)">
+            <summary>
+            Atualiza valores
+            </summary>
+            <param name="request"></param>
+            <returns>Autaliza o valor</returns>
+        </member>
+        <member name="M:PocSwagger.Controllers.ValuesController.Delete(System.Int32)">
+            <summary>
+            Exclui logicamente os valores
+            </summary>
+            <param name="id"></param>
+            <returns>Excluir o valor</returns>
+        </member>
+        <member name="T:PocSwagger.Controllers.WeatherForecastController">
+            <summary>
+            Previsão do tempo
+            </summary>
+        </member>
+        <member name="M:PocSwagger.Controllers.WeatherForecastController.#ctor(Microsoft.Extensions.Logging.ILogger{PocSwagger.Controllers.WeatherForecastController})">
+            <summary></summary>
+            <param name="logger"></param>
+        </member>
+        <member name="M:PocSwagger.Controllers.WeatherForecastController.Get">
+            <summary>
+            Busca os valores aleatórios
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:PocSwagger.Startup">
+            <summary>
+            Setup
+            </summary>
+        </member>
+        <member name="M:PocSwagger.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="configuration"></param>
+            <param name="webHostEnvironment"></param>
+        </member>
+        <member name="M:PocSwagger.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            This method gets called by the runtime. Use this method to configure the HTTP request pipeline. 
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+        <member name="T:PocSwagger.ViewModel.ValueViewModel">
+            <summary>
+            Values
+            </summary>
+        </member>
+        <member name="P:PocSwagger.ViewModel.ValueViewModel.Id">
+            <summary>
+            Object Identifier
+            </summary>
+        </member>
+        <member name="P:PocSwagger.ViewModel.ValueViewModel.Value">
+            <summary>
+            Value
+            </summary>
+        </member>
+        <member name="P:PocSwagger.ViewModel.ValueViewModel.Description">
+            <summary>
+            Operation description
+            </summary>
+        </member>
+        <member name="T:PocSwagger.ViewModel.WeatherForecast">
+            <summary>
+            WeatherForecast
+            </summary>
+        </member>
+    </members>
+</doc>
