@@ -8,7 +8,6 @@
 #### Agrupando apis no documento swagger
 
 ##### Configuração no Startup
-Indented 4 spaces, like `<pre>` (Preformatted Text).
 
     public void ConfigureServices(IServiceCollection services)
         {
