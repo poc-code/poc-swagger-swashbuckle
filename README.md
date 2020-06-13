@@ -2,7 +2,7 @@
 
 ### Informações
 
-- Em propriedades do projeto Depurar -> Configurações do Servidor Web é necessário desabilitar a opção Habilitar SSL e em Compilar -> Saída -> Arquivo de documentação XML é preciso definir o arquivo xml para que as descrições da api apareção na documentoção do swagger ;
+- Em propriedades do projeto Depurar -> Configurações do Servidor Web é necessário desabilitar a opção Habilitar SSL e em Compilar -> Saída -> Arquivo de documentação XML é preciso definir o arquivo xml para que as descrições da api e dos endpoints apareçam na documentação do swagger ;
 - Este projeto ha deixa o cors permitido para quaisquer requisições
 
 #### Agrupando apis no documento swagger
